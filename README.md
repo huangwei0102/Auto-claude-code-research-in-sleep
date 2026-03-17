@@ -28,7 +28,7 @@ Custom [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skills for 
 
 ## 📢 What's New
 
-- **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🎨 **[`paper-illustration`](skills/paper-illustration/SKILL.md)** — AI-generated publication-quality architecture diagrams and method figures. Claude plans → Gemini renders → iterative refinement until score ≥ 9. Integrated into Workflow 3 (`illustration: true`, requires `GEMINI_API_KEY`). Community contribution by [@Joseph-li343](https://github.com/Joseph-li343)
+- **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🎨 **[`paper-illustration`](skills/paper-illustration/SKILL.md)** — AI-generated publication-quality architecture diagrams and method figures. Claude plans → Gemini renders → iterative refinement until score ≥ 9. Integrated into Workflow 3 (`illustration: true`, requires `GEMINI_API_KEY`). Built on [PaperBanana](https://github.com/dwzhu-pku/PaperBanana). Community contribution by [@Joseph-li343](https://github.com/Joseph-li343)
   <details><summary>Preview demo</summary><br><img src="assets/paper_illustration_demo.png" width="600" alt="paper-illustration demo" /></details>
 - **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 📊 **W&B integration** — auto `wandb.log()` when `wandb: true`. 🔗 **[Workflow 1.5](skills/experiment-bridge/SKILL.md)** — `/experiment-bridge`: plan → implement → deploy → collect
 - **2026-03-17** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🔧 **Git code sync** — `/run-experiment` now supports `code_sync: git` (`git push` → `ssh "git pull"`) as alternative to rsync. **[NARRATIVE_REPORT example](docs/NARRATIVE_REPORT_EXAMPLE.md)** for Workflow 3. **Parameter pass-through** — set any downstream parameter at any level with `— key: value` ([details](#%EF%B8%8F-customization)). 🆓 **[ModelScope guide](docs/MODELSCOPE_GUIDE.md)** — free (2000 calls/day), one key, no automation restrictions ([Alt E](#-alternative-model-combinations))
@@ -1132,6 +1132,7 @@ ARIS is inspired by:
 - 🧪 [AI Scientist](https://github.com/SakanaAI/AI-Scientist) (Sakana AI) — Automated research pioneer
 - 📖 [AutoResearch](https://github.com/karpathy/autoresearch) (Andrej Karpathy) — End-to-end research automation
 - 🔭 [FARS](https://analemma.ai/blog/introducing-fars/) (Analemma) — Fully Automated Research System
+- 🎨 [PaperBanana](https://github.com/dwzhu-pku/PaperBanana) (PKU) — Multi-agent academic illustration framework
 
 This project builds on and integrates with many excellent open-source projects:
 

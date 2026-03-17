@@ -28,7 +28,7 @@
 
 ## 📢 最近更新
 
-- **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🎨 **[`paper-illustration`](skills/paper-illustration/SKILL.md)** — AI 生成出版级架构图/方法示意图。Claude 规划 → Gemini 渲染 → 迭代优化至 ≥9 分。集成到工作流 3（`illustration: true`，需 `GEMINI_API_KEY`）。社区贡献 by [@Joseph-li343](https://github.com/Joseph-li343)
+- **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🎨 **[`paper-illustration`](skills/paper-illustration/SKILL.md)** — AI 生成出版级架构图/方法示意图。Claude 规划 → Gemini 渲染 → 迭代优化至 ≥9 分。集成到工作流 3（`illustration: true`，需 `GEMINI_API_KEY`）。基于 [PaperBanana](https://github.com/dwzhu-pku/PaperBanana)。社区贡献 by [@Joseph-li343](https://github.com/Joseph-li343)
   <details><summary>预览 demo</summary><br><img src="assets/paper_illustration_demo.png" width="600" alt="paper-illustration 示例" /></details>
 - **2026-03-18** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 📊 **W&B 集成** — `wandb: true` 时自动加 `wandb.log()`。🔗 **[工作流 1.5](skills/experiment-bridge/SKILL.md)** — `/experiment-bridge`：计划 → 实现 → 部署 → 收集
 - **2026-03-17** — ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square) 🔧 **Git 代码同步** — `/run-experiment` 支持 `code_sync: git`（`git push` → `ssh "git pull"`），替代 rsync。**[NARRATIVE_REPORT 示例](docs/NARRATIVE_REPORT_EXAMPLE.md)** 展示工作流 3 输入格式。**参数透传** — 任何层级加 `— key: value` 自动传到下游 skill（[详情](#%EF%B8%8F-自定义)）。🆓 **[ModelScope 指南](docs/MODELSCOPE_GUIDE.md)** — 免费（2000 次/天），一个 Key，无自动化限制（[方案 E](#-替代模型组合)）
@@ -1030,6 +1030,7 @@ ARIS 的灵感来自：
 - 🧪 [AI Scientist](https://github.com/SakanaAI/AI-Scientist)（Sakana AI）— 自动化科研先驱
 - 📖 [AutoResearch](https://github.com/karpathy/autoresearch)（Andrej Karpathy）— 端到端科研自动化
 - 🔭 [FARS](https://analemma.ai/blog/introducing-fars/)（Analemma）— 全自动科研系统
+- 🎨 [PaperBanana](https://github.com/dwzhu-pku/PaperBanana)（PKU）— 多 Agent 学术插图框架
 
 本项目构建于并集成了许多优秀的开源项目：
 
