@@ -1,10 +1,12 @@
 # Auto-claude-code-research-in-sleep (ARIS ⚔️🌙)
 
+🔥 [**ARIS-Code CLI — 独立安装版**](docs/ARIS-Code-README_CN.md) · [English](docs/ARIS-Code-README_EN.md) | [⬇️ Download](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/releases/latest)
+
 ![ARIS Logo](docs/aris_logo.svg)
 
 ![Hero](docs/hero_combined.svg)
 
-[中文版 README](README_CN.md) | English | 🔥 [**ARIS-Code CLI** — 独立安装版](docs/ARIS-Code-README_CN.md) · [English](docs/ARIS-Code-README_EN.md)
+[中文版 README](README_CN.md) | English
 
 ![Score Progression](docs/auto_review_score_curve.png)
 
