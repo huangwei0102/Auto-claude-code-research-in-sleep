@@ -4,6 +4,16 @@
 
 🔥 [**ARIS-Code CLI — 独立安装版**](docs/ARIS-Code-README_CN.md) · [English](docs/ARIS-Code-README_EN.md) | [⬇️ Download](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/releases/latest)
 
+> 📰 **ARIS-Code v0.2.1** (2026-04-03) — 🧠 Persistent Memory · cross-session context | 🔧 Kimi K2.5 multi-turn fix | 🈶 CJK cursor fix | 📦 Banner box frame
+>
+> <details><summary>Previous versions</summary>
+>
+> **v0.2.0** (2026-04-02) — 🔓 Open source release | 🤖 Kimi K2.5 + MiniMax M2.7 + GLM-5 support | 🔀 Smart LlmReview routing | 🌐 CI/CD for macOS + Linux | 🌍 Language setting
+>
+> **v0.1.0** (2026-04-02) — 🎉 Initial release | Multi-executor & multi-reviewer | 42 bundled skills | Interactive setup & menus | `/skills` system
+>
+> </details>
+
 <img src="docs/aris-code-banner.png" width="600" alt="ARIS-Code CLI">
 
 ![ARIS Logo](docs/aris_logo.svg)
